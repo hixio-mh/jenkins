@@ -39,7 +39,7 @@ THE SOFTWARE.
   <properties>
     <concurrency>2</concurrency> <!-- may use e.g. 2C for 2 × (number of cores) -->
     <mavenDebug>false</mavenDebug>
-    <jacocoSurefireArgs /><!-- empty by default -->
+    <jacocoSurefireArgs/><!-- empty by default -->
   </properties>
 
   <dependencyManagement>
@@ -185,7 +185,7 @@ THE SOFTWARE.
     <dependency>
       <groupId>org.easymock</groupId>
       <artifactId>easymock</artifactId>
-      <version>2.4</version>
+      <version>2.5.2</version>
     </dependency>
     <dependency>
       <groupId>org.mockito</groupId>
