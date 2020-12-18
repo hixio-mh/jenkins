@@ -39,7 +39,7 @@ THE SOFTWARE.
   <properties>
     <concurrency>2</concurrency> <!-- may use e.g. 2C for 2 × (number of cores) -->
     <mavenDebug>false</mavenDebug>
-    <jacocoSurefireArgs /><!-- empty by default -->
+    <jacocoSurefireArgs/><!-- empty by default -->
   </properties>
 
   <dependencyManagement>
@@ -163,7 +163,7 @@ THE SOFTWARE.
     <dependency>
       <groupId>org.jvnet.mock-javamail</groupId>
       <artifactId>mock-javamail</artifactId>
-      <version>1.7</version>
+      <version>1.9</version>
       <exclusions>
         <exclusion>
           <groupId>javax.mail</groupId>
