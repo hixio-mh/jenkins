@@ -39,7 +39,7 @@ THE SOFTWARE.
   <properties>
     <concurrency>2</concurrency> <!-- may use e.g. 2C for 2 × (number of cores) -->
     <mavenDebug>false</mavenDebug>
-    <jacocoSurefireArgs /><!-- empty by default -->
+    <jacocoSurefireArgs/><!-- empty by default -->
   </properties>
 
   <dependencyManagement>
@@ -195,7 +195,7 @@ THE SOFTWARE.
     <dependency>
       <groupId>org.reflections</groupId>
       <artifactId>reflections</artifactId>
-      <version>0.9.9</version>
+      <version>0.10</version>
       <exclusions>
         <exclusion> <!-- TODO requests 15; apparently works well enough with the 11 we bundle -->
           <groupId>com.google.guava</groupId>
