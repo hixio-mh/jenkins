@@ -120,7 +120,7 @@ THE SOFTWARE.
       <!-- maven-plugin 2.14 (above) pulls in mailer 1.7, but then HelpCommandTest fails due to moved localized resources -->
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>mailer</artifactId>
-      <version>1.23</version>
+      <version>391.ve4a_38c1b_cf4b_</version>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
